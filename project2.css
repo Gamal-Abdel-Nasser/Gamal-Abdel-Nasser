@@ -1,0 +1,299 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+   
+    height: 135vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    height: 5vh;
+    align-items: center;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 20px 2px 30px black;
+}
+
+.logo img {
+    width: 60px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none ;
+}
+
+#navbar ul , .search-bar ul {
+    display: flex;
+}
+
+#navbar ul li a , .search-bar ul li a {   
+    padding: 15px 20px;
+    color: black;
+}
+
+#navbar ul li a:hover , .search-bar ul li a:hover  {
+    border-bottom: 2px solid white;
+} 
+
+#navbar .sing {
+    margin-right: 40px;
+    color: black;
+}
+
+ .sing button {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 20px;
+    border: 3px solid #ccc;
+    border-radius: 30px ;
+}
+
+
+
+.search-bar input {
+   font-size: 20px;
+    padding: 20px 120px;
+    border: 1px solid #ccc;
+    border-radius: 30px  0px  0px  30px;
+    background-color: #382e2e4e;
+}
+
+
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100;
+}
+
+.filter-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    padding: 0px 90px;
+    margin-left: 120px;
+
+}
+
+.filter {
+    padding: 0px 200px;
+    float: right;
+}
+
+.hero {
+    padding: 30px;
+    text-align: left;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.tours-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.tour {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tour img {
+    width: 100%;
+    height: 250px;
+}
+
+.tour-info {
+    padding: 20px;
+}
+
+.tour-info .badge {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.tour-info .Exceptional {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tour-info h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.tour-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.tour-info strong {
+    font-size: 18px;
+    color: #333;
+}
+
+#populer {
+    height: 100vh;
+    width:  80%;
+    margin: auto;
+}
+
+.populer-destination {
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.populer-destination h2 {
+    font-size: 40px;
+}
+.populer-destination p {
+    font-size: 18px;
+    color: #666;
+    padding-bottom: 30px;
+}
+
+.destination {
+    padding-top: 30px;
+}
+
+.destination button {
+    background-color: #d6cbcb;
+}
+
+.town-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+  
+}
+
+.city {
+    width: 20%;
+    height: 25%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px 1px;
+}
+
+.city h2 {
+    padding: 18px 10px;
+    font-size: 30px;
+    background-color: #d6cbcb;
+}
+
+.city img {
+    width: 100%;
+    height: 130px;
+}
+
+.img-city {
+    padding: 20px;
+}
+
+.img-city h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.img-city p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.img-town {
+    padding: 20px;
+    background-color:#d6cbcb ;
+}
+.img-town button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+
+}
+
